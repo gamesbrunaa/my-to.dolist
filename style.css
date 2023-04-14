@@ -105,7 +105,7 @@ form button:hover{
     pointer-events: none;
 }
 
-.completed{
+.finalizada{
     text-decoration: line-through;
     opacity: 0.5;
 }
@@ -123,7 +123,7 @@ select {
     border: none;
 }
 
-.selecao{
+.select{
     margin: 1rem;
     position: relative;
     overflow: hidden;
@@ -138,7 +138,7 @@ select{
     padding: 0.5rem;
 }
 
-.selecao::after{
+.select::after{
     content: "\2BC6";
     position: absolute;
     background-color: gold;
@@ -149,7 +149,7 @@ select{
     transition: all 0.3s ease;
 }
 
-.selecao:hover::after{
+.select:hover::after{
     background-color: white;
     color: gold;
 }

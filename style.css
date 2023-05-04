@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: blue;
+    background-color: #B438FC;
     color: white;
     font-family: "Questrial", sans-serif;
     min-height: 100vh;
@@ -30,10 +30,11 @@ form input, form button{
     border: none;
     background-color: white;
     border-radius: 2rem;
+    margin: 10px;
 }
 
 form button{
-    color: gold;
+    color: #501970;
     background-color: white;
     cursor: pointer;
     transition: all 0.3 case;
@@ -42,7 +43,7 @@ form button{
 
 form button:hover{
     color: white;
-    background-color: gold;
+    background-color: #501970;
 }
 
 .fa-plus-circle{
@@ -88,7 +89,7 @@ form button:hover{
 }
 
 .completar-botao{
-    background-color: gold;
+    background-color: #501970;
 }
 
 .excluir-botao{
@@ -131,7 +132,7 @@ select {
 }
 
 select{
-    color: gold;
+    color: #501970;
     width: 10rem;
     height: 2rem;
     cursor: pointer;
@@ -141,7 +142,7 @@ select{
 .select::after{
     content: "\2BC6";
     position: absolute;
-    background-color: gold;
+    background-color: #501970;
     top: -10px;
     right: 0;
     padding: 1rem;
@@ -151,5 +152,33 @@ select{
 
 .select:hover::after{
     background-color: white;
-    color: gold;
+    color: #501970;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+a > button {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #fff;
+    color: #501970;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #000;
+}
+
+a > button:hover{
+    background-color: #501970;
+    color: #fff;
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
 }

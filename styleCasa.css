@@ -1,0 +1,57 @@
+.to-do-list-casa{
+    min-width: 77vh;
+    list-style: none;
+}
+
+.to-do-casa{
+    margin: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.to-do-casa li{
+    flex: 1;
+}
+
+.editar-botao-casa, .excluir-botao-casa, .completar-botao-casa{
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.editar-botao-casa{
+    background-color: #D427E6;
+}
+
+.completar-botao-casa{
+    background-color: #501970;
+}
+
+.excluir-botao-casa{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: lightgray;
+}
+
+.to-do-item-casa{
+    padding: 0rem 0.5rem;
+}
+
+.finalizada-casa{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.slide{
+    transform: translateX(10rem);
+    opacity: 0;
+}

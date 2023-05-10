@@ -1,9 +1,9 @@
-.to-do-list-casa{
+.to-do-list-facul{
     min-width: 77vh;
     list-style: none;
 }
 
-.to-do-casa{
+.to-do-facul{
     margin: 0.5rem;
     padding-left: 0.5rem;
     background-color: white;
@@ -16,11 +16,11 @@
     border-radius: 5px;
 }
 
-.to-do-casa li{
+.to-do-facul li{
     flex: 1;
 }
 
-.editar-botao-casa, .excluir-botao-casa, .completar-botao-casa{
+.editar-botao-facul, .excluir-botao-facul, .completar-botao-facul{
     color: white;
     border: none;
     padding: 1rem;
@@ -28,25 +28,25 @@
     font-size: 1.5rem;
 }
 
-.editar-botao-casa{
+.editar-botao-facul{
     background-color: #D427E6;
 }
 
-.completar-botao-casa{
+.completar-botao-facul{
     background-color: #501970;
 }
 
-.excluir-botao-casa{
+.excluir-botao-facul{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: lightgray;
 }
 
-.to-do-item-casa{
+.to-do-item-facul{
     padding: 0rem 0.5rem;
 }
 
-.finalizada-casa{
+.finalizada-facul{
     text-decoration: line-through;
     opacity: 0.5;
 }
@@ -54,4 +54,12 @@
 .slide{
     transform: translateX(10rem);
     opacity: 0;
+}
+
+.to-do-casa{
+    overflow: hidden;
+}
+
+.to-do-list-trabalho{
+    overflow: hidden;
 }

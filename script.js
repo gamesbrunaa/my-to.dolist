@@ -1,6 +1,6 @@
 const Entrada = document.querySelector(".entrada");
 const Botao = document.querySelector(".botao");
-const todolist = document.querySelector(".to-do-list-casa");
+const todolist = document.querySelector(".to-do-list");
 const Filtro = document.querySelector(".filtro-tarefas");
 
 document.addEventListener("DOMContentLoaded", getLocalTodos);
@@ -11,27 +11,27 @@ Filtro.addEventListener("change", filtroToDo);
 function adicionar(event){
     event.preventDefault();
     const ToDoDiv = document.createElement("div");
-    ToDoDiv.classList.add("to-do-casa");
+    ToDoDiv.classList.add("to-do");
     const novoToDo = document.createElement("li");
     novoToDo.innerText = Entrada.value;
-    novoToDo.classList.add("to-do-item-casa");
+    novoToDo.classList.add("to-do-item");
     ToDoDiv.appendChild(novoToDo);
 
     savedLocalTodos(Entrada.value);
 
     const BotaoCompleto = document.createElement("button");
     BotaoCompleto.innerHTML = '<i class="fa fa-check-circle"></i>';
-    BotaoCompleto.classList.add("completar-botao-casa");
+    BotaoCompleto.classList.add("completar-botao");
     ToDoDiv.appendChild(BotaoCompleto);
 
     const EditarBotao = document.createElement("button");
     EditarBotao.innerHTML = '<i class="fa fa-pencil-square-o"</i>';
-    EditarBotao.classList.add("editar-botao-casa");
+    EditarBotao.classList.add("editar-botao");
     ToDoDiv.appendChild(EditarBotao);
 
     const ExcluirBotao = document.createElement("button");
     ExcluirBotao.innerHTML = '<i class="fa fa-trash"></i>';
-    ExcluirBotao.classList.add("excluir-botao-casa");
+    ExcluirBotao.classList.add("excluir-botao");
     ToDoDiv.appendChild(ExcluirBotao);
 
     todolist.appendChild(ToDoDiv);
@@ -41,7 +41,7 @@ function adicionar(event){
 function deleteCheck(ev){
     const item = ev.target;
 
-    if(item.classList[0] === "excluir-botao-casa"){
+    if(item.classList[0] === "excluir-botao"){
         const todo = item.parentElement;
         todo.classList.add("slide");
         removeLocalTodos(todo);
@@ -50,7 +50,7 @@ function deleteCheck(ev){
         });
     }
 
-    if(item.classList[0] === "completar-botao-casa"){
+    if(item.classList[0] === "completar-botao"){
         const todo = item.parentElement;
         todo.classList.toggle("finalizada");
     }
@@ -102,30 +102,30 @@ function getLocalTodos(){
 
     todos.forEach(function(todo) {
         const ToDoDiv = document.createElement("div");
-        ToDoDiv.classList.add("to-do-casa");
+        ToDoDiv.classList.add("to-do");
         const novoToDo = document.createElement("li");
         novoToDo.innerText = todo;
-        novoToDo.classList.add("to-do-item-casa");
+        novoToDo.classList.add("to-do-item");
         ToDoDiv.appendChild(novoToDo);
 
         const BotaoCompleto = document.createElement("button");
         BotaoCompleto.innerHTML = '<i class="fa fa-check-circle"></i>';
-        BotaoCompleto.classList.add("completar-botao-casa");
+        BotaoCompleto.classList.add("completar-botao");
         ToDoDiv.appendChild(BotaoCompleto);
 
         const EditarBotao = document.createElement("button");
         EditarBotao.innerHTML = '<i class="fa fa-pencil-square-o"</i>';
-        EditarBotao.classList.add("editar-botao-casa");
+        EditarBotao.classList.add("editar-botao");
         ToDoDiv.appendChild(EditarBotao);
 
         const ExcluirBotao = document.createElement("button");
         ExcluirBotao.innerHTML = '<i class="fa fa-trash"></i>';
-        ExcluirBotao.classList.add("excluir-botao-casa");
+        ExcluirBotao.classList.add("excluir-botao");
         ToDoDiv.appendChild(ExcluirBotao);
         todolist.appendChild(ToDoDiv);
     });
 }
-
+    
 function removeLocalTodos(todo){
     let todos;
     if(localStorage.getItem("todos") === null){

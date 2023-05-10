@@ -1,9 +1,9 @@
-.to-do-list-facul{
+.to-do-list-casa{
     min-width: 77vh;
     list-style: none;
 }
 
-.to-do-facul{
+.to-do-casa{
     margin: 0.5rem;
     padding-left: 0.5rem;
     background-color: white;
@@ -16,11 +16,11 @@
     border-radius: 5px;
 }
 
-.to-do-facul li{
+.to-do-casa li{
     flex: 1;
 }
 
-.editar-botao-facul, .excluir-botao-facul, .completar-botao-facul{
+.editar-botao-casa, .excluir-botao-casa, .completar-botao-casa{
     color: white;
     border: none;
     padding: 1rem;
@@ -28,25 +28,25 @@
     font-size: 1.5rem;
 }
 
-.editar-botao-facul{
+.editar-botao-casa{
     background-color: #D427E6;
 }
 
-.completar-botao-facul{
+.completar-botao-casa{
     background-color: #501970;
 }
 
-.excluir-botao-facul{
+.excluir-botao-casa{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: lightgray;
 }
 
-.to-do-item-facul{
+.to-do-item-casa{
     padding: 0rem 0.5rem;
 }
 
-.finalizada-facul{
+.finalizada-casa{
     text-decoration: line-through;
     opacity: 0.5;
 }
@@ -55,3 +55,5 @@
     transform: translateX(10rem);
     opacity: 0;
 }
+
+

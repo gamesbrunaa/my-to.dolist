@@ -1,41 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minhas Tarefas</title>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styleCasa.css">
-</head>
-<body>
-    <header>
-        <h1><i class="fa fa-check-square-o"></i>Minhas Tarefas</h1>
-        <h2>Casa</h2>
-    </header>
+    <link rel="shortcut icon" href="lista-de-tarefas.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="todo-container">
+      <header>
+        <h1><i class="fa fa-check-square-o"></i> Minhas Tarefas</h1>
+      </header>
 
-    <form action="">
-        <input type="text" class="entrada" placeholder="Digite a tarefa">
-        <button class="botao" type="submit">
+      <form id="todo-form">
+        <div class="form-control">
+          <input type="text" id="todo-input" placeholder="Digite sua tarefa:"/>
+          <button type="submit">
             <i class="fa fa-plus-circle"></i>
-        </button>
-
+          </button>
+        </div>
         <div class="select">
-            <select name="todos" class="filtro-tarefas">
-                <option value="todos">Todas</option>
-                <option value="finalizada">Finalizadas</option>
-                <option value="incompletas">Incompletas</option>
+            <select name="todos" id="filter-select">
+                <option value="all">Todas</option>
+                <option value="done">Finalizadas</option>
+                <option value="todo">Incompletas</option>
             </select>
         </div>
-    </form>
+      </form>
 
-    <div class="container">
-        <ul class="to-do-list-casa"></ul>
+      <form id="edit-form" class="hide">
+        <p>Edite sua tarefa</p>
+        <div class="form-control">
+          <input type="text" id="edit-input" />
+          <button type="submit">
+            <i class="fa fa-check"></i>
+          </button>
+        </div>
+        <button id="cancel-edit-btn">Cancelar</button>
+      </form>
+      <div id="toolbar">
+        <div id="search">
+          <h4>Pesquisar:</h4>
+          <form>
+            <input type="text" id="search-input" placeholder="Buscar..." />
+            <button id="erase-button">
+                <i class="fa fa-search"></i></i>
+            </button>
+          </form>
+        </div>
+        <div id="todo-list">
+        </div>
     </div>
 
-    <a href="../main.html"><button class="tipo-tarefa">Voltar</button></a>
-
-    <script src="./script.js"></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>

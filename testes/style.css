@@ -38,7 +38,6 @@ form input{
     border-radius: 5px;
 }
 
-
 form input, form button{
     padding: 0.5rem;
     padding-left: 1rem;
@@ -144,3 +143,63 @@ a > button:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
+
+.to-do-list{
+    min-width: 77vh;
+    list-style: none;
+}
+
+.to-do{
+    margin: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.to-do li{
+    flex: 1;
+}
+
+.editar-botao, .excluir-botao, .completar-botao{
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.editar-botao{
+    background-color: #D427E6;
+}
+
+.completar-botao{
+    background-color: #501970;
+}
+
+.excluir-botao{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: lightgray;
+}
+
+.to-do-item{
+    padding: 0rem 0.5rem;
+}
+
+.finalizada{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.slide{
+    transform: translateX(10rem);
+    opacity: 0;
+}
+
+

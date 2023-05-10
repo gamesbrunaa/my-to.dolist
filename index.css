@@ -1,0 +1,214 @@
+/* Geral */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+body{
+    background-color: #501970;
+}
+
+h1{
+    color: #501970;
+}
+   
+form > button, .form-control > button {
+    color: #fff;
+    background-color: #B438FC;;
+    cursor: pointer;
+    transition: all 0.3 case;
+    margin-left: 0.5rem;
+    border-radius: 2rem;
+    padding: 5px;
+    border: none;
+}
+  
+form > button:hover, .form-control > button:hover {
+    color: #B438FC;;
+    background-color: #fff;
+}
+  
+form > button:hover > i, .form-control > button:hover > i {
+    color: #B438FC;;
+}
+  
+form > button i, .form-control > button i {
+    pointer-events: none;
+    font-weight: bold;
+}
+  
+input{
+    padding: 0.25rem 0.5rem;
+    border-radius: 10px;
+    border: none;
+    color: #501970;
+    background-color: #a3a3a34b;
+}
+
+#todo-input{
+    width: 50%;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+.select{
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-left: 20rem;
+    margin-top: -23px;
+}
+
+select{
+    color: #501970;
+    width: 100%;
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: #a3a3a34b;
+}
+
+.select::after{
+    content: "\2BC6";
+    position: absolute;
+    background-color: #B438FC;
+    top: -10px;
+    right: 0;
+    padding: 1rem;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.select:hover::after{
+    background-color: #501970;
+    color: #B438FC;
+}
+  
+.hide {
+    display: none;
+}
+  
+  /* Todo Header */
+.todo-container {
+    max-width: 600px;
+    margin: 3rem auto 0;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+  
+.todo-container header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    padding-top: 3rem;
+}
+
+#todo-form{
+    display: grid;
+}
+  
+  /* Todo Form */
+#todo-form, #edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+  
+#todo-form p, #edit-form p {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+  
+.form-control {
+    display: flex;
+    margin-top: 2rem;
+}
+  
+.form-control input {
+    margin-right: 0.3rem;
+}
+  
+#cancel-edit-btn {
+    margin-top: 1rem;
+    color: #444;
+}
+  
+  /* Todo Toolbar */
+#toolbar {
+    padding: 1rem;
+    display: block;
+}
+  
+#toolbar h4 {
+    margin-bottom: 0.5rem;
+}
+  
+#search {
+    padding-right: 1rem;
+    margin-right: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+  
+#search form {
+    display: flex;
+}
+  
+#search input {
+    width: 100%;
+    margin-right: 0.3rem;
+}
+  
+  /* Todo List */
+.todo {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    transition: 0.3s;
+}
+  
+.todo h3 {
+    flex: 1;
+    font-size: 0.9rem;
+    padding-left: 10px;
+}
+  
+.done {
+    background: #501970;
+}
+  
+.done h3 {
+    color: #fff;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.edit-todo, .remove-todo, .finish-todo{
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.edit-todo{
+    background-color: #D427E6;
+}
+
+.finish-todo{
+    background-color: #501970;
+}
+
+.remove-todo{
+    background-color: lightgray;
+}

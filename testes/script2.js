@@ -24,11 +24,6 @@ function adicionar(event){
     BotaoCompleto.classList.add("completar-botao");
     ToDoDiv.appendChild(BotaoCompleto);
 
-    const EditarBotao = document.createElement("button");
-    EditarBotao.innerHTML = '<i class="fa fa-pencil-square-o"</i>';
-    EditarBotao.classList.add("editar-botao");
-    ToDoDiv.appendChild(EditarBotao);
-
     const ExcluirBotao = document.createElement("button");
     ExcluirBotao.innerHTML = '<i class="fa fa-trash"></i>';
     ExcluirBotao.classList.add("excluir-botao");
@@ -113,11 +108,6 @@ function getLocalTodos(){
         BotaoCompleto.classList.add("completar-botao");
         ToDoDiv.appendChild(BotaoCompleto);
 
-        const EditarBotao = document.createElement("button");
-        EditarBotao.innerHTML = '<i class="fa fa-pencil-square-o"</i>';
-        EditarBotao.classList.add("editar-botao");
-        ToDoDiv.appendChild(EditarBotao);
-
         const ExcluirBotao = document.createElement("button");
         ExcluirBotao.innerHTML = '<i class="fa fa-trash"></i>';
         ExcluirBotao.classList.add("excluir-botao");
@@ -125,7 +115,7 @@ function getLocalTodos(){
         todolist.appendChild(ToDoDiv);
     });
 }
-    
+
 function removeLocalTodos(todo){
     let todos;
     if(localStorage.getItem("todos") === null){

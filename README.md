@@ -8,23 +8,23 @@ A seguir, descrevo a abordagem realizada para a criação.
 
 ## 🚀 Começando
 
-📌 1. Definição de requisitos
+📌 1. Definição de requisitos - Nesta etapa, o objetivo é identificar e definir os requisitos do sistema, ou seja, o que o sistema deve ser capaz de fazer e quais são as suas funcionalidades.
 
-📌 2. Escolha das tecnologia
+📌 2. Escolha das tecnologia - com base nos requisitos definidos, é preciso escolher a tecnologia a ser usada no projeto. Existem diversas opções, como linguagens de programação, frameworks.
 
-📌 3. Projeto da interface de usuário
+📌 3. Projeto da interface de usuário - uma boa interface de usuário é essencial para que o To-Do List seja fácil e agradável de usar.
 
-📌 4. Desenvolvimento do Software
+📌 4. Desenvolvimento do Software - com base na tecnologia escolhida e na interface projetada, é preciso desenvolver o software do To-Do List.
 
-📌 5. Testes
+📌 5. Testes - após o desenvolvimento, é importante testar o To-Do List em diferentes cenários e depurar quaisquer erros ou falhas.
 
-📌 6. Implementação de recursos adicionais
+📌 6. Implementação de recursos adicionais - é possível implementar recursos adicionais para torná-lo mais útil e atraente para os usuários.
 
 ### 🔧 Definição de requisitos
 
-* Criação de tarefas: a capacidade de adicionar tarefas na lista de To-Do List, com informações como título e descrição da tarefa;
-* Edição e exclusão de tarefas: a capacidade de editar ou excluir tarefas existentes na lista;
-* Pesquisa e filtragem: a possibilidade de pesquisar e filtrar tarefas por diferentes critérios
+* **Criação de tarefas:** a capacidade de adicionar tarefas na lista de To-Do List, com informações como título e descrição da tarefa;
+* **Edição e exclusão de tarefas:** a capacidade de editar ou excluir tarefas existentes na lista;
+* **Pesquisa e filtragem:** a possibilidade de pesquisar e filtrar tarefas por diferentes critérios
 
 ### 🛠️ Construído com
 
@@ -39,9 +39,9 @@ Para você colocar este projeto em funcionamento, basta você clonar este projet
 
 ## 📦 Implementação de Recursos Adicionais
 
-* Priorização: permitir a classificação das tarefas em ordem de prioridade, por exemplo, alta, média e baixa.
-* Definir prazos: o usuário pode definir uma data de vencimento para cada tarefa, para ajudá-lo a gerenciar melhor o tempo.
-* Categorias: permitir que o usuário organize as tarefas em categorias ou projetos, para facilitar a visualização e a gestão.
+* **Priorização:** permitir a classificação das tarefas em ordem de prioridade, por exemplo, alta, média e baixa.
+* **Definir prazos:** o usuário pode definir uma data de vencimento para cada tarefa, para ajudá-lo a gerenciar melhor o tempo.
+* **Categorias:** permitir que o usuário organize as tarefas em categorias ou projetos, para facilitar a visualização e a gestão.
 
 ## ✒️ Autores
 

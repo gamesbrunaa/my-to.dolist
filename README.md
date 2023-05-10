@@ -8,17 +8,17 @@ A seguir, descrevo a abordagem realizada para a criação.
 
 ## 🚀 Começando
 
-📌 1. Definição de requisitos - Nesta etapa, o objetivo é identificar e definir os requisitos do sistema, ou seja, o que o sistema deve ser capaz de fazer e quais são as suas funcionalidades.
+📌 **Definição de requisitos -** Nesta etapa, o objetivo é identificar e definir os requisitos do sistema, ou seja, o que o sistema deve ser capaz de fazer e quais são as suas funcionalidades.
 
-📌 2. Escolha das tecnologia - com base nos requisitos definidos, é preciso escolher a tecnologia a ser usada no projeto. Existem diversas opções, como linguagens de programação, frameworks.
+📌 **Escolha das tecnologia -** com base nos requisitos definidos, é preciso escolher a tecnologia a ser usada no projeto. Existem diversas opções, como linguagens de programação, frameworks.
 
-📌 3. Projeto da interface de usuário - uma boa interface de usuário é essencial para que o To-Do List seja fácil e agradável de usar.
+📌 **Projeto da interface de usuário -** uma boa interface de usuário é essencial para que o To-Do List seja fácil e agradável de usar.
 
-📌 4. Desenvolvimento do Software - com base na tecnologia escolhida e na interface projetada, é preciso desenvolver o software do To-Do List.
+📌 **Desenvolvimento do Software -** com base na tecnologia escolhida e na interface projetada, é preciso desenvolver o software do To-Do List.
 
-📌 5. Testes - após o desenvolvimento, é importante testar o To-Do List em diferentes cenários e depurar quaisquer erros ou falhas.
+📌 **Testes -** após o desenvolvimento, é importante testar o To-Do List em diferentes cenários e depurar quaisquer erros ou falhas.
 
-📌 6. Implementação de recursos adicionais - é possível implementar recursos adicionais para torná-lo mais útil e atraente para os usuários.
+📌 **Implementação de recursos adicionais -** é possível implementar recursos adicionais para torná-lo mais útil e atraente para os usuários.
 
 ## 🔧 Definição de requisitos
 
@@ -34,7 +34,7 @@ A seguir, descrevo a abordagem realizada para a criação.
 
 ## 🔧 Instalação
 
-Para você colocar este projeto em funcionamento, basta você clonar este projeto ou fazer download e executar o arquivo index.html em seu navegador.
+Para você colocar este projeto em funcionamento, basta você clonar este projeto ou fazer download e executar o arquivo index.html em seu navegador. Ou acessá-lo [clicando aqui!](https://gamesbrunaa.github.io/my-to.dolist/)
 
 
 ## 📦 Implementação de Recursos Adicionais

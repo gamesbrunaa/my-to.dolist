@@ -20,19 +20,19 @@ A seguir, descrevo a abordagem realizada para a criação.
 
 📌 6. Implementação de recursos adicionais - é possível implementar recursos adicionais para torná-lo mais útil e atraente para os usuários.
 
-### 🔧 Definição de requisitos
+## 🔧 Definição de requisitos
 
 * **Criação de tarefas:** a capacidade de adicionar tarefas na lista de To-Do List, com informações como título e descrição da tarefa;
 * **Edição e exclusão de tarefas:** a capacidade de editar ou excluir tarefas existentes na lista;
 * **Pesquisa e filtragem:** a possibilidade de pesquisar e filtrar tarefas por diferentes critérios
 
-### 🛠️ Construído com
+## 🛠️ Construído com
 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - para interatividade e manipulação dinâmica do conteúdo.
 * [HTML5](https://www.w3c.br/pub/Cursos/CursoHTML5/html5-web.pdf) - para estruturação do documento web.
 * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - para estilização do layout e apresentação visual.
 
-### 🔧 Instalação
+## 🔧 Instalação
 
 Para você colocar este projeto em funcionamento, basta você clonar este projeto ou fazer download e executar o arquivo index.html em seu navegador.
 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Tarefas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fa fa-check-square-o"></i>Minhas Tarefas</h1>
+        <h2> Trabalho</h2>
+    </header>
+
+    <form action="">
+        <input type="text" class="entrada" placeholder="Digite a tarefa">
+        <button class="botao" type="submit">
+            <i class="fa fa-plus-circle"></i>
+        </button>
+
+        <div class="select">
+            <select name="todos" class="filtro-tarefas">
+                <option value="todos">Todas</option>
+                <option value="finalizada">Finalizadas</option>
+                <option value="incompletas">Incompletas</option>
+            </select>
+        </div>
+    </form>
+
+    <div class="container">
+        <ul class="to-do-list"></ul>
+    </div>
+
+    <a href="main.html"><button class="tipo-tarefa">Voltar</button></a>
+
+    <script src="./script3.js"></script>
+</body>
+</html>

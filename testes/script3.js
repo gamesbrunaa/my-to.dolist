@@ -125,7 +125,7 @@ function getLocalTodos(){
         todolist.appendChild(ToDoDiv);
     });
 }
-    
+
 function removeLocalTodos(todo){
     let todos;
     if(localStorage.getItem("todos") === null){

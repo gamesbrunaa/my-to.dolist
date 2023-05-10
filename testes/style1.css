@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #501970;
+    color: white;
+    font-family: "Questrial", sans-serif;
+    min-height: 50vh;
+}
+
+header{
+    text-align: center;
+    margin-top: 20%;
+    font-variant: small-caps;
+    font-size: 5vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+a > button {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #fff;
+    color: #501970;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #000;
+}
+
+a > button:hover{
+    background-color: #B438FC;
+    color: #fff;
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
